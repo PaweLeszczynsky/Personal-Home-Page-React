@@ -8,5 +8,6 @@ export const StyledBodyContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top: 50px;
+    padding-top: 100px;
+    position: relative;
 `;

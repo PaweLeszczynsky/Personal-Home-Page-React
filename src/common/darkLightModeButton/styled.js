@@ -4,7 +4,7 @@ import { Moon, Sunny } from '@styled-icons/ionicons-outline';
 export const StyledDarkLightModeContainer = styled.div`
 
     position: absolute;
-    right: 0;
+    right: 10px;
     top: 100px;
     display: flex;
     flex-direction: row;
@@ -33,10 +33,10 @@ export const StyledDarkLightModeButtonContainer = styled.div`
 
 export const StyledDarkLightModeButton = styled.div`
     background-color: #6E7E91;
-    height: 21px;
-    width: 21px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
-    margin: 2px;
+    margin: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,13 +52,13 @@ export const StyledDarkLightModeButton = styled.div`
 `;
 export const StyledMoonIcon = styled(Moon)`
     background-color: transparent;
-    height: 17px;
-    width: 17px;
+    height: 18px;
+    width: 18px;
     color: white;
 `;
 export const StyledSunnyIcon = styled(Sunny)`
     background-color: transparent;
-    height: 17px;
-    width: 17px;
+    height: 18px;
+    width: 18px;
     color: white;
 `;

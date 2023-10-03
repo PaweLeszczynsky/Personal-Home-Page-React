@@ -7,6 +7,7 @@ export const StyledContainer = styled.div`
     display: flex;
     flex-direction: row;
     gap: 30px;
+    align-items: center;
     
 `;
 
@@ -21,7 +22,6 @@ export const StyledPictureContainer = styled.div`
     background-repeat: no-repeat;
 `;
 export const StyledDescriptionContainer = styled.div`
-    height: 100%;
     flex-grow: 1;
     display: flex;
     flex-direction: column;

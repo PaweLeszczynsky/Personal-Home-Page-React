@@ -5,21 +5,16 @@ const WhatLearnNext = () => (
     <StyledListComponentContainer>
         <StyledListTitle>What I want to learn next</StyledListTitle>
         <StyledListUnderline />
-        <StyledListContainer>
-            <StyledList>
-                <StyledListItem>Three.js</StyledListItem>
-                <StyledListItem>JS Classes</StyledListItem>
-            </StyledList>
-            <StyledList>
-                <StyledListItem>TypeScript</StyledListItem>
-                <StyledListItem>Scrum</StyledListItem>
-            </StyledList>
-            <StyledList>
-                <StyledListItem>Redux Saga</StyledListItem>
-                <StyledListItem>React Router</StyledListItem>
-            </StyledList>
-        </StyledListContainer>
+        <StyledList>
+            <StyledListItem>Three.js</StyledListItem>
+            <StyledListItem>JS Classes</StyledListItem>
+            <StyledListItem>TypeScript</StyledListItem>
+            <StyledListItem>Scrum</StyledListItem>
+            <StyledListItem>Redux Saga</StyledListItem>
+            <StyledListItem>React Router</StyledListItem>
+        </StyledList>
+
     </StyledListComponentContainer>
-    
+
 );
 export default WhatLearnNext;

@@ -1,19 +1,17 @@
 import { useState } from "react";
 import { StyledDarkLightModeButton, StyledDarkLightModeButtonContainer, StyledDarkLightModeContainer, StyledDarkLightModeText, StyledMoonIcon, StyledSunnyIcon } from "./styled";
 
-const DarkLightModeButton = () => {
-
-    let [darkLightModeState, setDarkLightModeState] = useState(false);
-
-    const changeVal = () => {
-        setDarkLightModeState(darkLightModeState => darkLightModeState = !darkLightModeState);
+const DarkLightModeButton = ({ changeVal}) => {
+    const [isToggled, setIsToggled] = useState(false);
+    const onToggle = () => {
+        setIsToggled(!isToggled);
     }
     return (
         <StyledDarkLightModeContainer>
-            <StyledDarkLightModeText>Dark mode {darkLightModeState === false ? "off" : "on"}</StyledDarkLightModeText>
+            <StyledDarkLightModeText>Dark mode {isToggled === false ? "off" : "on"}</StyledDarkLightModeText>
             <StyledDarkLightModeButtonContainer>
-                <StyledDarkLightModeButton value={darkLightModeState} onClick={() => changeVal()}>
-                    {darkLightModeState === false ? <StyledSunnyIcon /> : <StyledMoonIcon />}
+                <StyledDarkLightModeButton value={isToggled} onClick={() =>{ changeVal(); onToggle();}}>
+                    {isToggled === true ? <StyledMoonIcon  /> : <StyledSunnyIcon value={isToggled}/>}
                 </StyledDarkLightModeButton>
             </StyledDarkLightModeButtonContainer>
         </StyledDarkLightModeContainer>

@@ -1,4 +1,4 @@
-import { StyledListComponentContainer, StyledList, StyledListContainer, StyledListItem, StyledListTitle, StyledListUnderline } from "../list/styled";
+import { StyledListComponentContainer, StyledList, StyledListItem, StyledListTitle, StyledListUnderline } from "../list/styled";
 
 const Skills = () => {
     return (

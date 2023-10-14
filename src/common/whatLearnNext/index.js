@@ -1,7 +1,6 @@
-import { StyledList, StyledListComponentContainer, StyledListContainer, StyledListItem, StyledListTitle, StyledListUnderline } from "../list/styled";
+import { StyledList, StyledListComponentContainer, StyledListItem, StyledListTitle, StyledListUnderline } from "../list/styled";
 
 const WhatLearnNext = () => (
-
     <StyledListComponentContainer>
         <StyledListTitle>What I want to learn next</StyledListTitle>
         <StyledListUnderline />
